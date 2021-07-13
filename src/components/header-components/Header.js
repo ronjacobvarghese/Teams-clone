@@ -1,5 +1,4 @@
 import './header.css';
-import ItemsHandler from '../common-components/ItemsHandler';
 import Items from '../common-components/Items';
 import { IconContext } from 'react-icons';
 import { AiOutlineSearch } from 'react-icons/ai';
@@ -27,10 +26,9 @@ function Header() {
       <div className="search-wrapper">
         <i><AiOutlineSearch className="icons" color="gray" size="1.1em" /><label>Search</label></i>
         <input className="search" onChange={SearchHandler}/>
-
       </div>
       
-      <div className="right-wrapper" onMouseEnter={ItemsHandler}>
+      <div className="right-wrapper">
         <div className='setting-wrapper'>
              <BsThreeDots color="white"/>
         </div>

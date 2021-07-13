@@ -2,7 +2,6 @@
 import './navbar.css';
 import {IconContext} from 'react-icons'
 import Items from '../common-components/Items';
-import ItemsHandler from '../common-components/ItemsHandler';
 import { BsBell , BsBellFill, BsChatDots , BsChatDotsFill , BsCalendar , BsCalendarFill , BsThreeDots} from "react-icons/bs";
 import { HiOutlineUserGroup , HiUserGroup , HiOutlineShoppingBag , HiShoppingBag } from "react-icons/hi";
 import { IoCallOutline , IoCallSharp , IoHelpCircleSharp , IoHelpCircleOutline } from "react-icons/io5";
@@ -12,7 +11,7 @@ function Navbar(){
 
     return(
         <IconContext.Provider value={  {color:"white" , size:"1.3em" } }>
-            <div className='Navbar-wrapper' onMouseEnter={ItemsHandler}>
+            <div className='Navbar-wrapper'>
                 <div className='Navbar-topitem'>
                     <Items className="NavItem-wrapper" iconA={<BsBell className="icon"/>} iconB={<BsBellFill/>} title="Activity"/>
                     <Items className="NavItem-wrapper"  iconA={<BsChatDots className="icon"/>} iconB={<BsChatDotsFill/>} title="Chats"/>
