@@ -5,7 +5,7 @@ import { AiOutlineSearch } from 'react-icons/ai';
 import { BsThreeDots } from 'react-icons/bs'
 import { IoPersonCircleOutline , IoPersonCircleSharp } from "react-icons/io5";
 
-function Header() {
+function Header(props) {
 
   function SearchHandler(){
     const search=document.activeElement
@@ -29,14 +29,12 @@ function Header() {
       </div>
       
       <div className="right-wrapper">
-        <div className='setting-wrapper'>
-             <BsThreeDots color="white"/>
-        </div>
+        <div className='setting-wrapper' onClick={props.openingSettings}>
+             <BsThreeDots color="white" />
+        </div>        
         <IconContext.Provider value={{color:"white" ,size:"1.5em"}}>
-          <Items className="HeadItem-wrapper" iconA={<IoPersonCircleOutline className="icon"/>} iconB={<IoPersonCircleSharp/>}/>
+          <Items className="HeadItem-wrapper"onClick={props.openingProfile} iconA={<IoPersonCircleOutline className="icon"/>} iconB={<IoPersonCircleSharp/>}/>
         </IconContext.Provider>
-
-
         <div className="spacer"></div>
       </div>
       

@@ -2,7 +2,6 @@ import PrimaryCard from './UI/PrimaryCard';
 import Items from '../common-components/Items';
 import {useState, useEffect} from 'react';
 import db from '../../firebase.js'
-import DropdownItem from '../common-components/DropdownItem';
 import { MdPeople , MdPeopleOutline } from 'react-icons/md';
 import {BsThreeDots} from 'react-icons/bs';
 import{ IoSettingsOutline , IoSettingsSharp } from 'react-icons/io5'
@@ -33,11 +32,11 @@ function TeamsPP(){
                 </div>
                 {open && 
                     groupspp.map(group => (
-                        <DropdownItem className="TeamsPP__DropdownItem">
+                        <div className="TeamsPP__DropdownItem">
                             <i></i>
                             <div className="TeamsPP__DropdownItem__label">{group}</div>
                             <span className="TeamsPP__Settings"><BsThreeDots className="TeamsPP__icon"  color="green"/></span>
-                        </DropdownItem>
+                        </div>
                 ))}
 
             </div>

@@ -1,0 +1,47 @@
+
+.settings_droplist{
+    padding:0px;
+    position:absolute;
+    top:10px;
+    right:0px;
+    width:280px;
+    height:196px;
+    background-color:purple;
+    padding:8px 0px;
+    margin:-10px 0px 0px;
+    box-sizing:border-box;
+}
+.settings_li{
+    height:32px;
+    padding:0px 22px 0px 44px;
+    font-size:14px;
+    text-align: top;
+}
+.settings_divider{
+    height:2px;
+    margin:9px 0px;
+    background-color:#F3F2F1;
+}
+button{
+    list-style:none;
+    color:#424242;
+    font-size:14px;
+    padding:0px 20px 0px 20px;
+    height:32px;
+    color:white;
+    width:100%;
+    text-align: left;
+    background-color:purple;
+    border:0px;
+}
+.settings_icon{
+    left:17px;
+    top:15px;
+    height:20px;
+    width:20px;
+    position:absolute;
+    color:white;
+}
+button:hover {
+    background-color: #F3F2F1 !important;
+}

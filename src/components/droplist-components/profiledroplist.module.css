@@ -1,0 +1,80 @@
+.profile_droplist{ 
+    width:320px;
+    height:277px;
+    padding:8px 0px;
+    margin:-10px 0px 0px;
+    background-color:blue;
+    position:absolute;
+    right:5px;
+    top:10px;
+    box-sizing: border-box;
+    list-style:none;
+}
+.profile_profile{
+    font-size:14px;
+    margin:10px 0px 22px 20px;
+    width:282px;
+    height:57px;
+    display:flex;
+    position:relative;
+}
+.profile_button{
+    width:56px;
+    height:56px;
+    background-color:purple;
+}
+.profile_image{
+    width:100%;
+    height:100%;
+    border-radius:100%;
+    background-color:white;
+}
+.profile_name{
+    width:214px;
+    height:57px;
+    padding-left:12px;
+    padding-top:5px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    display:flex;
+    flex-direction:column;
+}
+.profile_span{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.profile_divider{
+    width:100%;
+    height:2px;
+    background-color:white;
+    margin:9px 0px;
+}
+.settings_button{
+    width:100%;
+    height:31px;
+    padding:6px 20px 5px 44px;
+}
+.setting_button:hover{
+    background-color:rebeccapurple !important;
+}
+.signout_button{
+    padding:6px 20px 5px;
+    width:100%;
+    height:31px;
+    color:white;
+}
+.iconA,.iconB,.iconC{
+    position:absolute;
+    left:19px;
+}
+.iconA{
+    top:113px
+}
+.iconB{
+    top:163px;
+}
+.iconC{
+    top:196px;
+}

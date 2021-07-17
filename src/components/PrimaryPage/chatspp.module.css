@@ -1,0 +1,14 @@
+.ChatsPPheader{
+    width:100%;
+    height:72px;
+    border-bottom:2px solid green;
+    box-sizing:border-box;
+    position: relative;
+}
+.ChatsPPheader label{
+    position:absolute;
+    font-size:1.2em;
+    font-weight:bold;
+    top:20px;
+    left:20px;
+}

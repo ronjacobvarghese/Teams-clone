@@ -9,7 +9,8 @@
   }
   
   .left-wrapper{ 
-    width:27%;
+    min-width:432px;
+    max-width:432px;
     display:flex;
     justify-content:flex-start;
   }
