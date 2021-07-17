@@ -5,7 +5,7 @@ import Navbar from './components/navbar-components/Navbar';
 import TeamsPP from './components/PrimaryPage/TeamsPP';
 import ProfileDropList from './components/droplist-components/ProfileDropList'
 import SettingsDropList from './components/droplist-components/SettingsDropList';
-
+import TeamsSP from './components/SecondaryPage/TeamsSP'
 
 function App() {
 
@@ -32,6 +32,7 @@ function App() {
       {openProfile && <ProfileDropList/>}
         <Navbar/>
         <TeamsPP/>
+        <TeamsSP/>
       </div>  
     </div>
   );

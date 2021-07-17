@@ -1,0 +1,11 @@
+.secondaryitem_wrapper{
+    width:auto;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:18px;
+    font-size:14px;
+    padding-top:7px;
+    box-sizing:border-box;
+}
