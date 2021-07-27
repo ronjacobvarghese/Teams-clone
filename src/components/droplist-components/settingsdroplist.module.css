@@ -13,7 +13,7 @@
 }
 .settings_li{
     height:32px;
-    padding:0px 22px 0px 44px !important;
+    padding:0px 22px 0px 44px;
     font-size:14px;
     text-align: top;
 }
@@ -22,8 +22,9 @@
     margin:9px 0px;
     background-color:#F3F2F1;
 }
-.settings_button{
+button{
     list-style:none;
+    color:#424242;
     font-size:14px;
     padding:0px 20px 0px 20px;
     height:32px;
@@ -41,6 +42,6 @@
     position:absolute;
     color:white;
 }
-.settings_button:hover {
+button:hover {
     background-color: #F3F2F1 !important;
 }

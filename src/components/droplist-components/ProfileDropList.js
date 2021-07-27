@@ -5,11 +5,11 @@ import { RiProfileLine } from "react-icons/ri";
 import { IoMdOpen } from "react-icons/io";
 import { IconContext } from "react-icons";
 
-function ProfileDropList(props) {
+function ProfileDropList() {
   return (
     <DropList className={styles.profile_droplist}>
       <li className={styles.profile_profile}>
-        <div className={styles.profile_button} onClick={props.onProfileClick}>
+        <div className={styles.profile_button}>
           <div className={styles.profile_image}></div>
         </div>
         <div className={styles.profile_name}>

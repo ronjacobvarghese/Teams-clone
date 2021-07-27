@@ -12,12 +12,9 @@ function  HeaderSP(props){
                 <SecondaryItem title="Files"/>
                 <SecondaryItem title="Assignments"/>
             </div>
-            <div className={styles.header_end}>
-                <div className={styles.header_meet}> Meet</div>
-            </div>
+            <div className={styles.header_end}></div>
         </div>
     );
 }
 
 export default HeaderSP;
-
