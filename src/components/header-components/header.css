@@ -3,7 +3,7 @@
     box-sizing: border-box;
     width:100%;
     background-color:red;
-    height:47px;
+    height:5%;
     display:flex;
     justify-content:left;
   }

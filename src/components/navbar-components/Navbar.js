@@ -14,7 +14,7 @@ function Navbar(){
             <div className='Navbar-wrapper'>
                 <div className='Navbar-topitem'>
                     <Items className="NavItem-wrapper" iconA={<BsBell className="icon"/>} iconB={<BsBellFill/>} title="Activity"/>
-                    <Items className="NavItem-wrapper"  iconA={<BsChatDots className="icon"/>} iconB={<BsChatDotsFill/>} title="Chats"/>
+                     <Items className="NavItem-wrapper"  iconA={<BsChatDots className="icon"/>} iconB={<BsChatDotsFill/>} title="Chats"/>
                     <Items className="NavItem-wrapper"  iconA={<HiOutlineUserGroup className="icon"/>} iconB={<HiUserGroup/>} title="Teams"/>
                     <Items className="NavItem-wrapper"  iconA={<HiOutlineShoppingBag className="icon"/>} iconB={<HiShoppingBag/>} title="Assignments"/>
                     <Items className="NavItem-wrapper"  iconA={<BsCalendar className="icon"/>} iconB={<BsCalendarFill/>} title="Calendar"/>
@@ -22,7 +22,7 @@ function Navbar(){
                     <Items className="NavItem-wrapper"  iconA={<AiOutlineFile className="icon"/>} iconB={<AiFillFile/>} title="Files"/>
                     <div className='settings-wrapper'>
                         <BsThreeDots/>
-                    </div>
+                    </div> 
 
             </div>
             <div className='Navbar-bottomitem'>
@@ -36,4 +36,4 @@ function Navbar(){
 }
 
 export default Navbar;
-    
+
