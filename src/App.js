@@ -26,7 +26,7 @@ function App() {
   }
   return (
     <div className="App">
-      <Header openingSettings={openSettingsHandler} openingProfile={openProfileHandler}/>
+      <Header openingSettings={openSettingsHandler} openingProfile={openProfileHandler} no={1+2}/>
       <div className="Body">
       {openSettings && <SettingsDropList/>}
       {openProfile && <ProfileDropList/>}

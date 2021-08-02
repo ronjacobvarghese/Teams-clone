@@ -1,7 +1,9 @@
 import styles from './headersp.module.css';
-import SecondaryItem from '../UI/SecondaryItem'
+import SecondaryItem from '../UI/SecondaryItem';
+import {Fragment} from 'react';
 function  HeaderSP(props){
     return(
+        <Fragment>
         <div className={styles.header_container}>
             <div className={styles.header_header}>
                 <div className={styles.header_header_icon}></div>
@@ -14,6 +16,7 @@ function  HeaderSP(props){
             </div>
             <div className={styles.header_end}></div>
         </div>
+        </Fragment>
     );
 }
 
